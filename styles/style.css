@@ -17,11 +17,11 @@ img{
     height: calc( (100% - 5px)/2 );
 }
 
-/* .square-collage{
+.square-collage{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 5px;
-} */
+}
 
 /* Responsive Media Query */
 @media screen and (max-width:576px) {
