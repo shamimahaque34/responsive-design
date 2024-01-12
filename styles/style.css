@@ -10,11 +10,11 @@ img{
     margin-bottom: 5px;
 }
 .row > div{
-    flex: 1;
+    flex: 1; /* row ar moddhe flex kora sob div gulo soman width daoar jonno flex:1 use kora hoise*/
 }
 
 .vertical-collage img{
-    height: calc( (100% - 5px)/2 );
+    height: calc( (100% - 5px)/2 ); /* image duitar height 50% ar gap daoai total 100% ar besi hoye jai nicher image nicher dike cole ase,tai height thik rakhar jonno aivabe height daoa hoi*/
 }
 
 .square-collage{
